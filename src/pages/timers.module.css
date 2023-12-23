@@ -27,6 +27,11 @@
     color: #ffffff;
 }
 
+.timers_btn:disabled {
+    background: #1d1e34;
+    opacity: 0.5;
+}
+
 .timers_deletebtn {
     display: flex;
     align-items: center;
@@ -52,4 +57,17 @@
 
     outline: none;
     border: none;
+}
+
+.timers_error {
+    font-weight: bold;
+    color: #ff0008;
+}
+
+.timers_container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    width: 100%;
 }

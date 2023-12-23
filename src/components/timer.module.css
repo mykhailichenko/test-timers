@@ -1,0 +1,59 @@
+.timer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 175px;
+    height: 175px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+
+    background: #8d8d8d;
+}
+
+.timer_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 100px;
+
+    border-radius: 100%;
+    background: rgb(38, 38, 38);
+
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.timer_delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+
+    cursor: pointer;
+
+    background: #ff0017;
+    color: #ffffff;
+}
+
+.timer_progress {
+    stroke-width: 5;
+    stroke: rgb(1, 255, 225);
+    fill: none;
+    position: fixed;
+    transform-origin: center;
+    transform: rotate(-90deg);
+}
+
+.timer_circle {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
