@@ -1,0 +1,55 @@
+.timers_header {
+    width: 100%;
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: #000000;
+}
+
+.timers_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+
+    background: #192cff;
+    color: #ffffff;
+}
+
+.timers_deletebtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    font-weight: bold;
+    background: #ff0000;
+    color: #ffffff;
+}
+
+.timers_input {
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+    outline: none;
+    border: none;
+}
