@@ -36,9 +36,11 @@ const TimersPage = () => {
     const [err, setErr] = useState('');
 
     useEffect(() => {
-        const savedTimes = JSON.parse(localStorage.getItem('timerSetup'));
+        if(localStorage.getItem('timerSetup')) {
+            const savedTimes = JSON.parse(localStorage.getItem('timerSetup'));
 
-        setTimes(savedTimes);
+            setTimes(savedTimes);
+        }
     }, [])
 
     const handleChangeInput = (e) => {
